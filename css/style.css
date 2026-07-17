@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+
+body{
+
+    background:
+    linear-gradient(135deg,#050505,#111827);
+
+    color:white;
+    min-height:100vh;
+
+}
+
+
+/* HEADER */
+
+header{
+
+    text-align:center;
+    padding:60px 20px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #090014,
+        #001b33
+    );
+
+    border-bottom:2px solid #00eaff;
+
+}
+
+
+header h1{
+
+    font-size:55px;
+    color:#00eaff;
+
+    text-shadow:
+    0 0 10px #00eaff,
+    0 0 30px #00eaff;
+
+}
+
+
+header p{
+
+    margin-top:15px;
+    color:#ccc;
+    font-size:20px;
+
+}
+
+
+
+/* CONTENEDOR */
+
+main{
+
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+
+}
+
+
+
+/* SECCIONES */
+
+section{
+
+    margin:50px 0;
+
+    background:#0d1117;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    border:1px solid #222;
+
+    box-shadow:
+    0 0 20px rgba(0,234,255,0.15);
+
+}
+
+
+
+h2{
+
+    color:#00eaff;
+
+    margin-bottom:25px;
+
+    font-size:30px;
+
+}
+
+
+
+/* FIELDSET */
+
+fieldset{
+
+    border:1px solid #8b5cf6;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+}
+
+
+legend{
+
+    color:#a855f7;
+
+    font-weight:bold;
+
+    font-size:20px;
+
+}
+
+
+
+/* LABELS */
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    color:#ddd;
+
+}
+
+
+
+/* INPUTS */
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    margin-top:8px;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    background:#161b22;
+
+    color:white;
+
+    border:1px solid #333;
+
+    transition:.3s;
+
+}
+
+
+
+input::placeholder,
+textarea::placeholder{
+
+    color:#777;
+
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    border-color:#00eaff;
+
+    box-shadow:
+    0 0 10px #00eaff;
+
+    outline:none;
+
+}
+
+
+
+/* TEXTAREA */
+
+textarea{
+
+    height:130px;
+
+    resize:none;
+
+}
+
+
+
+/* RADIO Y CHECKBOX */
+
+input[type="radio"],
+input[type="checkbox"]{
+
+    width:auto;
+
+    margin-right:8px;
+
+}
+
+
+
+/* BOTONES */
+
+button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #00eaff,
+        #8b5cf6
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+
+    0 0 20px #00eaff;
+
+}
+
+
+
+/* CONTACTO */
+
+.contacto{
+
+    border-top:2px solid #8b5cf6;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    background:#050505;
+
+    color:#aaa;
+
+    margin-top:50px;
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+    header h1{
+
+        font-size:38px;
+
+    }
+
+
+    section{
+
+        padding:20px;
+
+    }
+
+}
